@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reva.css">
+  <title>reva</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-content">
+        <div class="navbar-logo">
+          <img src="pic/Black_and_White_Minimal_Modern_Bold_Beauty_Logo-removebg-preview.png" alt="Logo" height="32" />
+        </div>
+        <ul class="navbar-list">
+          <li class="hideonmobile"><a href="#home" class="active">Home</a></li>
+          <li class="hideonmobile"><a href="#about">About</a></li>
+          <li class="hideonmobile"><a href="#skills">Skills</a></li>
+          <li class="hideonmobile"><a href="#projects">Projects</a></li>
+          <img class="menu" src="pic/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="" onclick="showsidebar()">
+        </ul>
+        <ul class="side-bar" id="side-bar">
+          <img onclick="hidesidebar()" src="pic/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+          <li><a href="#home" >Home</a></li>
+          <li><a href="#about" >About</a></li>
+          <li><a href="#skills" >Skills</a></li>
+          <li><a href="#projects" >Projects</a></li>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="one" id="home">
+      <div class="picone">
+        <img src="pic/baru.png" alt="">
+      </div>
+      <div class="textone">
+        <h2>Halo semuanya</h2>
+        <p>selamat datang di website pribadi saya!</p>
+        <p>Website ini saya buat sebagai <br> ruang untuk memperkenalkan diri,</p>
+        <p>blog pribadi</p>
+        <p>serta menampilkan beberapa karya <br> yang telah saya buat</p>
+        <div class="tombolone">
+          <a href="#about"><button class="tombol1"  ><p>Next</p></button></a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="two" id="about">
+        <h1>ABOUT</h1>
+        <div class="kumpulankotak">
+          <div class="textbox1">
+            <div class="judul"></div>
+            <h2>Tentang saya</h2>
+            <p>
+              Halo! perkenalkan nama saya Reva. Saya merupakan siswa kelas 8.5 di sekolah SMPN 2 Amlapura, saya berasal dari karangasem.
+              Saya merupakan pribadi yang senang belajar dan terus berusaha mengembangkan kemampuan diri secara bertahap.
+              Saya percaya bahwa proses belajar adalah hal yang berkelanjutan, sehingga saya selalu berusaha untuk memperbaiki diri dan terbuka terhadap hal-hal baru.
+            </p>
+          </div>
+          <div class="textbox2">
+            <h2>Tentang website</h2>
+            <p>Website ini dibuat sebagai ruang pribadi untuk menampilkan project-project yang saya kerjakan, membagikan skill yang saya pelajari, serta mendokumentasikan perjalanan saya dalam belajar dan berkembang.</p>
+            <div class="tomboltwo">
+              <a href="#skills">
+                <button class="tombol2"><p>Next</p></button>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="three" id="skills">
+      <div class="parent">
+        <div class="div-atas">
+          <div class="judul">
+            <h1>SKILLS</h1>
+          </div>
+          <div class="subjudul">
+            <p>Berikut beberapa keahlian dasar yang sedang saya pelajari dan <br> ingin saya kembangkan ke depannya.</p>
+          </div>
+          <div class="tombolthree">
+              <a href="#projects">
+                <button class="tombol3"><p>Next</p></button>
+              </a>
+          </div>
+        </div>
+        <div class="baris-bawah">
+          <div class="item" id="1">
+            <img src="pic/scratch.png" alt="Scratch Background" class="item-bg" />
+            <div class="item-content">Scratch</div>
+          </div>
+          <div class="item" id="2">
+            <img src="pic/construct.png" alt="Construct 3 Background" class="item-bg" />
+            <div class="item-content">Construct 3</div>
+          </div>
+          <div class="item" id="3">
+            <img src="pic/js.png" alt="JavaScript Background" class="item-bg" />
+            <div class="item-content">JavaScript dasar</div>
+          </div>
+          <div class="item" id="4">
+            <img src="pic/arduino.png" alt="Arduino Background" class="item-bg" />
+            <div class="item-content">Pemrograman Arduino dasar</div>
+          </div>
+          <div class="item" id="5">
+            <img src="pic/htmlcss.png" alt="HTML & CSS Background" class="item-bg" />
+            <div class="item-content">HTML & CSS</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="four" id="projects">
+        <div class="project-wrapper">
+          <div class="project-top-header"><p>Beberapa projek yang telah saya buat</p></div>
+          
+          <div class="project-items-row">
+            <a href="https://scratch.mit.edu/projects/905566959" target="_blank" class="project-card">
+              <img src="pic/adventyur w mr ghost.png" alt="Scratch" class="project-img-bg" />
+              <div class="project-text">Adventure with MR.Ghost</div>
+            </a>
+
+            <a href="https://youtu.be/8lmdKaPxVGI?si=622o7hjR0NvxpczH" target="_blank" class="project-card">
+              <img src="pic/konstrak.png" alt="Construct" class="project-img-bg" />
+              <div class="project-text">Theo The Earth Saver</div>
+            </a>
+
+            <a href="#home" class="project-card">
+              <img src="pic/webss.png " alt="JS" class="project-img-bg" />
+              <div class="project-text">Website Pribadi</div>
+            </a>
+
+            <a href="link-tujuan-4.html" target="_blank" class="project-card">
+              <img src="pic/tong.jpeg" alt="Arduino" class="project-img-bg" />
+              <div class="project-text">Prototype Tempat sampah otomatis</div>
+            </a>
+          </div>
+        </div>
+    </section>
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#482663"  fill-opacity="1" d="M0,128L40,122.7C80,117,160,107,240,96C320,85,400,75,480,90.7C560,107,640,149,720,165.3C800,181,880,171,960,149.3C1040,128,1120,96,1200,85.3C1280,75,1360,85,1400,90.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+
+  <script src="reva.js"></script>
+</body>   
+</html>
